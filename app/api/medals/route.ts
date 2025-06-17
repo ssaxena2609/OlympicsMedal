@@ -4,7 +4,7 @@ import path from 'path';
 
 export async function GET() {
   try {
-    // Read the medals data from the JSON file
+    // Reading the medals data from the JSON file
     const jsonDirectory = path.join(process.cwd(), 'public/data');
     const fileContents = await fs.readFile(jsonDirectory + '/medals.json', 'utf8');
     const data = JSON.parse(fileContents);

@@ -11,7 +11,6 @@ interface ErrorProps {
 
 export default function Error({ error, reset }: ErrorProps) {
   useEffect(() => {
-    // Log the error to an error reporting service
     console.error('Application error:', error);
   }, [error]);
 
@@ -34,7 +33,7 @@ export default function Error({ error, reset }: ErrorProps) {
           Something went wrong!
         </Typography>
         
-        <Typography variant="body1" color="text.secondary" paragraph>
+        <Typography variant="body1" color="text.secondary">
           We apologize for the inconvenience. An error has occurred while loading the page.
         </Typography>
         

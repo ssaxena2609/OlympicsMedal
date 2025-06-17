@@ -18,8 +18,7 @@ class ErrorReportingService {
   private constructor() {
     // Initialize error reporting service
     if (typeof window !== 'undefined' && process.env.NODE_ENV === 'production') {
-      // Initialize production error tracking service here
-      // e.g., Sentry.init({ dsn: process.env.NEXT_PUBLIC_SENTRY_DSN });
+      // Can Initialize production error tracking service here
     }
   }
 
@@ -39,9 +38,6 @@ class ErrorReportingService {
 
     if (process.env.NODE_ENV === 'production') {
       // Send to production error tracking service
-      // e.g., Sentry.captureException(report.error, { extra: report });
-      
-      // For now, we'll store locally and send to console
       this.storeError(report);
     } else {
       console.error('Development Error:', report);
@@ -52,8 +48,6 @@ class ErrorReportingService {
     if (typeof window === 'undefined') return;
 
     this.errorStore = [report, ...this.errorStore.slice(0, this.MAX_STORED_ERRORS - 1)];
-    
-    // You could also implement periodic sending to a backend here
     this.persistErrors();
   }
 
