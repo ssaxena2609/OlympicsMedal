@@ -1,0 +1,74 @@
+{
+  "countries": [
+    {
+      "code": "USA",
+      "name": "United States",
+      "gold": 39,
+      "silver": 41,
+      "bronze": 33
+    },
+    {
+      "code": "CHN",
+      "name": "China",
+      "gold": 38,
+      "silver": 32,
+      "bronze": 18
+    },
+    {
+      "code": "JPN",
+      "name": "Japan",
+      "gold": 27,
+      "silver": 14,
+      "bronze": 17
+    },
+    {
+      "code": "GBR",
+      "name": "Great Britain",
+      "gold": 22,
+      "silver": 21,
+      "bronze": 22
+    },
+    {
+      "code": "ROC",
+      "name": "ROC",
+      "gold": 20,
+      "silver": 28,
+      "bronze": 23
+    },
+    {
+      "code": "AUS",
+      "name": "Australia",
+      "gold": 17,
+      "silver": 7,
+      "bronze": 22
+    },
+    {
+      "code": "NED",
+      "name": "Netherlands",
+      "gold": 10,
+      "silver": 12,
+      "bronze": 14
+    },
+    {
+      "code": "FRA",
+      "name": "France",
+      "gold": 10,
+      "silver": 12,
+      "bronze": 11
+    },
+    {
+      "code": "GER",
+      "name": "Germany",
+      "gold": 10,
+      "silver": 11,
+      "bronze": 16
+    },
+    {
+      "code": "ITA",
+      "name": "Italy",
+      "gold": 10,
+      "silver": 10,
+      "bronze": 20
+    }
+  ]
+}
